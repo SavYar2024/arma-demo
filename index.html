@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Реєстр активів АРМА — демоверсія</title>
+<link rel="icon" href="logo.png">
+<link rel="stylesheet" href="app.css">
+<style>
+.boot{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:var(--muted)}
+.boot img{width:72px;height:72px}.boot b{color:var(--text)}
+.login-demo .tile{display:block}
+.pub{max-width:1180px;margin:0 auto;padding:0 18px 40px}
+.pub-top{display:flex;align-items:center;gap:14px;padding:18px 0;border-bottom:1px solid var(--line);margin-bottom:18px}
+.pub-top img{width:44px;height:44px}.pub-top b{font-size:17px}.pub-top span{display:block;font-size:12px;color:var(--muted)}
+.pcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.pcard{background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden;color:var(--text);display:block}
+.pcard:hover{border-color:var(--gold);text-decoration:none}
+.pcard .ph{aspect-ratio:4/3;background:var(--panel2);display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:12px}
+.pcard .ph img{width:100%;height:100%;object-fit:cover}
+.pcard .b{padding:10px 12px}.pcard .b b{display:block;font-size:14px;line-height:1.35}.pcard .b span{font-size:12px;color:var(--muted)}
+.pgal{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:8px}
+.pgal img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:6px;border:1px solid var(--line)}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<script src="app.js"></script>
+<script src="dicts.js"></script>
+<script src="demo.js"></script>
+</body>
+</html>
